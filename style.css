@@ -9,6 +9,7 @@ header{
 }
 h1{
     color: azure;
+    font-family: 'Helvetica';
 }
 .headercontent{
     max-width: 1200px;
@@ -72,9 +73,13 @@ section{
     left: 10px;
     margin-right: 10px;
     background-color: white;
-    opacity: 60%;
+    backdrop-filter:blur(10px);
+    opacity: 80%;
     border-radius: 10px;
     padding-left: 10px;
+}
+.bigp p{
+    font-family: 'Helvetica';
 }
 .secondclass{
     display: flex;
@@ -92,7 +97,10 @@ section{
 
 }
 .article p{
-    width: 400px;
+    width: 450px;
+}
+.article p a{
+    color:blue;
 }
 .littleimgs{
     height: 250px;
@@ -147,6 +155,8 @@ footer{
     flex-direction: row;
     align-items: center;
     margin-right: 80px;
+}.contact a{
+    font-family: 'Helvetica'
 }
 .contactsection{
     display: flex;
@@ -160,19 +170,40 @@ footer{
     margin-top:30px;
 }
 .maintext1 p{
-    width: 400px;
+    width: 430px;
+    color: white;
 }
-
+.editinput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.editinput label{
+    color:white;
+    font-family: 'Helvetica';
+}
 .editinput input{
-    height: 80px;
+    height: 50px;
     width: 400px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    background-color: blue;
+    
 
+}
+.editinputinfo input{
+    height: 80px;
 }
 h3{ 
     max-width: 1200px;
     width: 100%;
     margin: 150px auto 0 auto;
     padding-left: 40px;
+    color: white;
+    font-family: 'Helvetica';
 }
 .contact div{
     background-color:white ;
@@ -181,9 +212,52 @@ h3{
 }
 a{
     color: white;
+    text-decoration-line: none;
 }
 iframe{
     margin-top:30px;
+}
+.button{
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button button{
+    height: 50px;
+    width: 150px;
+}
+.button a{
+    color: black;
+    font-family: 'Helvetica';
+}
+.finish{
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto 0 auto;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-left-style: none ;
+    border-right-style: none;
+    border-bottom-style:none;
+    border-top-color:white;
+    border-top-width: 1px;
+}
+.finish p{
+    color:white;
+}
+.finish1{
+    display: flex;
+    align-items: center;
+}
+.lastimg{
+    margin-left: 15px;
 }
 
 
