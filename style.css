@@ -38,7 +38,7 @@ section{
     margin-right: auto;
 }
 .firstclass{
-    padding-left: 220px;
+    padding-left: 180px;
     position: absolute;
     width: 100%;
     margin: 0 auto 0 auto;
@@ -46,16 +46,18 @@ section{
 }
 .imgpk{
     display: flex;
+    flex-wrap: wrap;
     max-width: 1366px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 320px;
+    height: 120px;
 }
 .imgs{
     height: 260px;
     width: 260px;
     margin-right: 25px;
+    margin-bottom: 160px;
     align-self: flex-end;
     position: relative;
 }
